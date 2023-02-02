@@ -55,7 +55,7 @@ useEffect(()=>{
         <div className="container">
           <div className='sol'></div>
           <img id='n1' src={cloud1} loading="lazy" alt='cloud-1'/>
-          <img id='n2' src={cloud1} loading="lazy"  alt='cloud-2'/>
+          <img id='n2' src={cloud1} loading="lazy" alt='cloud-2'/>
           <img id='n3' src={cloud3} loading="lazy" alt='cloud-3'/>
           <img id='n4' src={cloud4} loading="lazy" alt='cloud-4'/> 
         </div>
