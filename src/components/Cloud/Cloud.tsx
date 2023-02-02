@@ -1,4 +1,8 @@
-import React,{useEffect} from 'react'
+import {useEffect} from 'react';
+import cloud1 from "../../assets/cloud1.webp"
+import cloud3 from "../../assets/cloud3.webp"
+import cloud4 from "../../assets/cloud4.webp"
+
 
 export default function Cloud() {
 
@@ -50,10 +54,10 @@ useEffect(()=>{
      <div className='cloud'>
         <div className="container">
           <div className='sol'></div>
-          <img id='n1' src="https://assets.stickpng.com/images/580b585b2edbce24c47b2639.png" alt='cloud-1'/>
-          <img id='n2' src="https://assets.stickpng.com/thumbs/580b585b2edbce24c47b2639.png" alt='cloud-2'/>
-          <img id='n3' src="https://cdn.pixabay.com/photo/2020/06/23/01/14/cloud-5330980_960_720.png" alt='cloud-3'/>
-          <img id='n4' src="https://www.pngplay.com/wp-content/uploads/4/Clouds-PNG-Images-HD.png" alt='cloud-4'/> 
+          <img id='n1' src={cloud1} loading="lazy" alt='cloud-1'/>
+          <img id='n2' src={cloud1} loading="lazy"  alt='cloud-2'/>
+          <img id='n3' src={cloud3} loading="lazy" alt='cloud-3'/>
+          <img id='n4' src={cloud4} loading="lazy" alt='cloud-4'/> 
         </div>
       </div>
   )
