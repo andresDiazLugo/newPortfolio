@@ -1,0 +1,98 @@
+
+ @mixin mq($size){
+    @media (max-width: $size) {
+        .container{
+            display: relative;
+            // background-color: red;
+          
+        
+            #n1{
+              position: absolute;
+              opacity: 90%;
+              transition: all 3s ease-in-out;
+              width: 10rem;
+              display: none;
+            }
+            #n2{
+              position: absolute;
+              opacity: 60%;
+              left: 0;
+              top: 40%;
+              transition: all 3s ease-in-out;
+              width: 16rem;
+
+            
+        
+            }
+            #n3{
+              position: absolute;
+              top: 40%;
+              left: 20%;
+              opacity: 70%;
+              transition: all 3s ease-in-out;
+              width: 20rem;
+           
+              
+            }
+            #n4{
+              position: absolute;
+              opacity: 80%;
+              transition: all 3s ease-in-out;
+              width: 15rem;
+          
+            }
+        
+            .sol{
+              width: 6rem;
+              height: 6rem;
+              margin: auto;
+              background-color: yellow;
+              border-radius: 50%;
+              -webkit-box-shadow: -6px -1px 300px 131px rgba(250,218,8,1);
+              -moz-box-shadow: -6px -1px 300px 131px rgba(250,218,8,1);
+              box-shadow: -6px -1px 300px 131px rgba(250,218,8,1);
+              transition: all 3s ease-in-out;
+            }
+            .sol--size{
+              width: 12rem;
+              height: 12rem;
+            }
+          }
+    }
+ }
+
+  
+ @mixin mediaQuerie_Nav($size){
+  @media (max-width: $size) {
+
+      .container{
+          padding: 2rem;
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1.4rem;
+          justify-content: space-between;
+          
+          h1{
+              font-size: 10rem;
+              background-color: black;
+              padding: 1rem;
+              color: white;
+              text-align: center;
+              line-height: 3rem;
+              border-top-left-radius: 2rem;
+              border-top-right-radius: 2rem;
+          }
+          div{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 2rem;
+              font-size: 1.4rem;
+              font-weight: 700;
+          }
+      }
+}
+}
+ 

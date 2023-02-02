@@ -1,0 +1,86 @@
+@import "../../sass/mixins/mixin.scss";
+.cloud{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 5rem;
+
+  .container{
+    display: relative;
+    // background-color: red;
+  
+
+    #n1{
+      position: absolute;
+      transform: translateX(-1400px);
+      top: 0;
+      opacity: 90%;
+      transition: all 3s ease-in-out;
+      // transform: translate(-3000px,-300px);
+      // animation: 3s cloudLeft  ease-in-out;
+
+    }
+    #n2{
+      position: absolute;
+      opacity: 60%;
+      left: 60rem;
+      transition: all 3s ease-in-out;
+
+      // transform: translate(-3000px,-100px);
+      // animation: 3s cloudLeft  ease-in-out;
+
+    }
+    #n3{
+      position: absolute;
+      top: 15rem;
+      right: 19rem;
+      opacity: 70%;
+      transition: all 3s ease-in-out;
+      // transform: translate(900px,-100px);
+      // animation: 3s cloudLeft  ease-in-out;
+      
+    }
+    #n4{
+      position: absolute;
+      opacity: 80%;
+      transition: all 3s ease-in-out;
+      // transform: translate(900px,200px);
+      // animation: 3s cloudLeft  ease-in-out;
+  
+    }
+
+    .sol{
+      width: 10rem;
+      height: 10rem;
+      margin: auto;
+      background-color: rgb(211, 211, 59);
+      border-radius: 50%;
+      -webkit-box-shadow: -6px -1px 300px 131px rgba(250,218,8,1);
+      -moz-box-shadow: -6px -1px 300px 131px rgba(250,218,8,1);
+      box-shadow: -6px -1px 300px 131px rgba(250,218,8,1);
+      // -webkit-box-shadow: -6px -1px 300px 131px rgb(248, 248, 248);
+      // -moz-box-shadow: -6px -1px 300px 131px rgb(252, 252, 252);
+      // box-shadow: -6px -1px 300px 131px rgb(246, 245, 241);
+      transition: all 3s ease-in-out;
+      opacity: 30%;
+    }
+    .sol--size{
+      width: 15rem;
+      height: 15rem;
+      opacity: 100%;
+    }
+  }
+  @include mq(480px)
+}
+@keyframes cloudLeft{
+  from{
+    // transform: translateX(-1900px);
+    opacity: 60%;
+  }
+  to{
+    // transform: translateX(-3000px);
+    opacity: 10%;
+    display: none;
+  }
+}
