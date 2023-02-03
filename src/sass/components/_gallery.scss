@@ -1,0 +1,34 @@
+@import "../mixins/mixin";
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+    min-height:35rem;
+    h2{
+        font-size: 2rem;
+    }
+    section{
+        display: flex;
+        width: 1500px;
+        height: 300px;
+        img {
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            width: 0;
+            flex-grow: 1;
+            object-fit:cover;
+            opacity: .8;
+            transition: all .3s ease-in-out;
+        }
+        .changeSize{
+            width: 400px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+    
+    }
+    @include mediaQuerie_Section(480px)
+}
