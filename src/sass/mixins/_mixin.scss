@@ -95,4 +95,29 @@
       }
 }
 }
- 
+
+@mixin mediaQuerie_Section($size){
+ @media (max-width: $size){
+  section{
+    
+    width: 400px;
+    height: 300px;
+    img {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        width: 0;
+        flex-grow: 1;
+        object-fit:cover;
+        opacity: .8;
+        transition: all .3s ease-in-out;
+    &:hover{
+        cursor: crosshair;
+        width: 400px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    }
+
+}
+ }
+}

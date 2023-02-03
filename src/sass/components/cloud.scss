@@ -66,6 +66,18 @@
       transition: all 3s ease-in-out;
       opacity: 30%;
     }
+    .luna{
+      width: 10rem;
+      height: 10rem;
+      margin: auto;
+      border-radius: 50%;
+      -webkit-box-shadow: -6px -1px 300px 131px rgb(249, 249, 249);
+      -moz-box-shadow: -6px -1px 300px 131px rgb(255, 255, 255);
+      box-shadow: -6px -1px 300px 131px rgb(226, 226, 226);
+  
+      transition: all 3s ease-in-out;
+      // opacity: 30%;
+    }
     .sol--size{
       width: 15rem;
       height: 15rem;
