@@ -32,6 +32,7 @@ export default function Gallery() {
                     conditionalBoolean = true
                 }
             }
+    
         },1000)
         console.log(window.document.querySelectorAll(".change1"))
     },[])
