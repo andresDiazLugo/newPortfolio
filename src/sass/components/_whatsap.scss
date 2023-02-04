@@ -1,0 +1,8 @@
+.whatsap{
+    position: fixed;
+    bottom: 100px;
+    right: 250px;
+    @media(max-width:480px){
+        display: none;   
+    }
+}
