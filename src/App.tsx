@@ -1,10 +1,9 @@
 import { useState,useRef, useEffect, ElementType } from 'react'
 import Nav from './components/Nav/Nav'
-import Cloud from './components/Cloud/Cloud'
-import Gallery from './components/Gallery/Gallery'
-import Projects from './components/Projects/Projects'
+import HomePath from './components/HomePath/HomePath'
 import Whatsap from './components/Whatsap/Whatsap'
-import Contact from './components/Contact/Contact'
+import AboutPath from './components/AbouthPath/AboutPath'
+import {Routes,Route} from "react-router-dom"
 import './App.scss'
 
 
@@ -15,19 +14,14 @@ function App() {
     
     <div className='App'>
       <Nav/>
-
-      <Cloud/>
-
-      <Gallery/>
-
-      <Projects/>
-
       <Whatsap/>
-
-      <Contact/>
+      <Routes>
+        <Route path="/" element={<HomePath/>}/>
+        <Route path='/about' element={<AboutPath/>}/>
+      </Routes>
+      
+           
     </div>
-    
-    
   )
 }
 
