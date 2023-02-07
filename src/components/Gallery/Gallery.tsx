@@ -6,7 +6,7 @@ export default function Gallery() {
         let positionIMg = 0;
         const elementsImg = window.document.querySelectorAll(".change1")
         let conditionalBoolean = true
-        setInterval(()=>{
+        const interval = setInterval(()=>{
     
             if(conditionalBoolean){
                 elementsImg[positionIMg].classList.add("changeSize")              
@@ -22,7 +22,6 @@ export default function Gallery() {
                     
                 }                
             }else if(!conditionalBoolean){
-                console.log(positionIMg)
                 elementsImg[positionIMg].classList.remove("changeSize")
                 positionIMg =positionIMg - 1                
                 setTimeout(()=>{
@@ -34,7 +33,9 @@ export default function Gallery() {
             }
     
         },1000)
-        console.log(window.document.querySelectorAll(".change1"))
+        return ()=>{
+            clearInterval(interval)
+        }
     },[])
   return (
     <main className="Main">

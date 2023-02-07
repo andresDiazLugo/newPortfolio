@@ -50,8 +50,9 @@ const sendDate = (e:React.FormEvent<HTMLFormElement>)=>{
         e.preventDefault()
        return alert("* fields are required")
         }
-    // setDate({name:"", email:"", write:""})
 }
+
+
 
   return (
     <div className="Contact">

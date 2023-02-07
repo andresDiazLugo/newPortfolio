@@ -18,14 +18,14 @@ export default function Cloud() {
           n2.style.transform = "translate(-300px,-100px)"
           n3.style.transform = "translate(30%,-100px)"
           n4.style.transform = "translate(30%,200px)"
-          elementSol.classList.add("sol--size")
+          elementSol?.classList.add("sol--size")
           
         }else{
           n1.style.removeProperty("transform")
           n2.style.removeProperty("transform")
           n3.style.removeProperty("transform")
           n4.style.removeProperty("transform")
-          elementSol.classList.remove("sol--size")
+          elementSol?.classList.remove("sol--size")
         }
         
         }
@@ -44,6 +44,9 @@ useEffect(()=>{
   if(element){
     elementSol = element
     observer.observe(elementSol)
+  }
+  return ()=>{
+    observer.disconnect();
   }
 },[])
     
