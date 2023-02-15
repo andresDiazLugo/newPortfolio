@@ -51,15 +51,15 @@ export const project = [
     tecnology:["REACT","TYPESCRIPT", "JAVASCRIPT", "HTML", "CSS","TAILWIND","NODEJS","EXPRESS","PostgreSQL","SEQUELIZE"]
 
 },
-{
-    id:6,
-    img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1661958329/country_rwabcu.png",
-    title:"App country",
-    gitHub:"https://github.com/andresDiazLugo/front-app-country",
-    deploy:"#",
-    tecnology:["REACT", "JAVASCRIPT", "HTML", "CSS", "NODEJS", "EXPRESS","PostgreSQL","SEQUELIZE"]
+// {
+//     id:6,
+//     img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1661958329/country_rwabcu.png",
+//     title:"App country",
+//     gitHub:"https://github.com/andresDiazLugo/front-app-country",
+//     deploy:"#",
+//     tecnology:["REACT", "JAVASCRIPT", "HTML", "CSS", "NODEJS", "EXPRESS","PostgreSQL","SEQUELIZE"]
 
-},
+// },
 {
     id:7,
     img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1672665041/calculadora.png",
