@@ -46,8 +46,8 @@ export const project = [
     id:5,
     img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1675447191/gallery_hkaeww.png",
     title:"Gallery of img",
-    gitHub:"https://gallery-phi-five.vercel.app/signUp",
-    deploy:"https://github.com/andresDiazLugo/gallery",
+    gitHub:"https://github.com/andresDiazLugo/gallery",
+    deploy:"https://gallery-phi-five.vercel.app/signUp",
     tecnology:["REACT","TYPESCRIPT", "JAVASCRIPT", "HTML", "CSS","TAILWIND","NODEJS","EXPRESS","PostgreSQL","SEQUELIZE"]
 
 },
