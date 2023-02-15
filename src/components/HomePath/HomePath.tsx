@@ -8,7 +8,7 @@ export default function HomePath() {
     <Cloud/>
     <Gallery/>
     <Projects/>
-    <Contact/>
+<!--     <Contact/> -->
     </>
   )
 }
