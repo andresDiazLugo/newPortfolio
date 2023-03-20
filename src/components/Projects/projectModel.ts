@@ -109,7 +109,7 @@ export const project = [
     tecnology:["HTML", "CSS"]
 },
   {
-    id:12,
+    id:13,
     img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1679345725/salon_dpsgnz.png",
     title:"clothing salon",
     gitHub:"https://github.com/andresDiazLugo/salon",
