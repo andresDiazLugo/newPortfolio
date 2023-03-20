@@ -46,10 +46,9 @@ export const project = [
     id:5,
     img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1675447191/gallery_hkaeww.png",
     title:"Gallery of img",
-    gitHub:"https://github.com/andresDiazLugo/gallery",
+    gitHub:"https://gallery-phi-five.vercel.app/signUp",
     deploy:"https://gallery-phi-five.vercel.app/",
     tecnology:["REACT","TYPESCRIPT", "JAVASCRIPT", "HTML", "CSS","TAILWIND","NODEJS","EXPRESS","PostgreSQL","SEQUELIZE"]
-
 },
 // {
 //     id:6,
@@ -84,5 +83,13 @@ export const project = [
     gitHub:"https://github.com/andresDiazLugo/newPortfolio",
     deploy:"https://new-portfolio-1vknf9yeg-andresdiazlugo.vercel.app/",
     tecnology:["REACT","TYPESCRIPT","JAVASCRIPT", "HTML", "CSS", "SASS"]
+},
+{
+    id:10,
+    img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1679343651/Animation_wtnght.png",
+    title:"Ojos animations",
+    gitHub:"https://github.com/andresDiazLugo/animation",
+    deploy:"https://animation-blue.vercel.app/",
+    tecnology:["REACT", "HTML", "CSS", "SASS"]
 }
 ]
