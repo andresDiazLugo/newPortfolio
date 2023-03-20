@@ -91,5 +91,30 @@ export const project = [
     gitHub:"https://github.com/andresDiazLugo/animation",
     deploy:"https://animation-blue.vercel.app/",
     tecnology:["REACT", "HTML", "CSS", "SASS"]
-}
+},
+{
+    id:11,
+    img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1679345729/festival_izrdv1.png",
+    title:"festival",
+    gitHub:"https://github.com/andresDiazLugo/festival",
+    deploy:"https://festival-gilt.vercel.app/",
+    tecnology:["JAVASCRIPT","gulp", "HTML", "CSS", "SASS"]
+},
+{
+    id:12,
+    img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1679345727/CafeNG_jbkxp0.png",
+    title:"Blog of Coffe",
+    gitHub:"https://github.com/andresDiazLugo/blog_cafe",
+    deploy:"https://blog-cafe-two.vercel.app/",
+    tecnology:["HTML", "CSS"]
+},
+  {
+    id:12,
+    img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1679345725/salon_dpsgnz.png",
+    title:"clothing salon",
+    gitHub:"https://github.com/andresDiazLugo/salon",
+    deploy:"https://salon-nu.vercel.app/",
+    tecnology:["HTML", "CSS"]
+},
+    
 ]
