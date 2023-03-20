@@ -1,6 +1,7 @@
 import {useState} from "react"
 import {ImWhatsapp} from "react-icons/im";
 import {BsLinkedin} from "react-icons/bs"; 
+import { send } from "vite";
 
 interface Error {
     name:string,
@@ -8,7 +9,7 @@ interface Error {
 }
 
 export default function Contact() {
-const [date, setDate]  = useState(
+const [date, setDate]  = useState<any>(
     {
         name: "",
         email: "",
@@ -46,18 +47,30 @@ const handleWrite = (e:React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<H
     }
 }
 const sendDate = (e:React.FormEvent<HTMLFormElement>)=>{
+    e.preventDefault()
     if(date.name === "" || date.write ===""){
-        e.preventDefault()
        return alert("* fields are required")
         }
+    const formData = new FormData();
+    Object.entries(date).forEach(([key,value]:any)=>{
+            formData.append(key,value);
+    })
+        fetch("https://getform.io/f/575a5377-58bf-4161-88e2-697d9a22e556", {
+            method: "POST",
+            body: formData
+        }).then(()=>setDate({
+            name: "",
+            email: "",
+            write:""
+        }))
+        return alert("date send");
+       
 }
-
-
 
   return (
     <div className="Contact">
 
-        <form onSubmit={sendDate} action="mailto:andresd.ad5@gmail.com" method="post" name="form1">
+        <form onSubmit={sendDate}  name="form1">
             <div>
                 <label htmlFor="nombre">Name: </label>
                 <input autoComplete="off" onChange={handleWrite} id="nombre" name="name" value={date.name} type="text" />

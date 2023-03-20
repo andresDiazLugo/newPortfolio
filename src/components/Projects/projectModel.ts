@@ -11,8 +11,8 @@ export const project = [
     id:1,
     img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1667931315/mercado_libre_wwjhhe.png",
     title:"Clon Mercado Libre",
-    gitHub:"https://github.com/andresDiazLugo/mercado-libre---clon",
-    deploy:"https://golden-beijinho-f059ab.netlify.app/",
+    gitHub:"https://github.com/andresDiazLugo/clon-MERCADO-LIBRE",
+    deploy:"https://clon-mercado-libre-chi.vercel.app/",
     tecnology:["REACT", "JAVASCRIPT", "HTML", "CSS"]
 },
 {
@@ -47,19 +47,19 @@ export const project = [
     img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1675447191/gallery_hkaeww.png",
     title:"Gallery of img",
     gitHub:"https://gallery-phi-five.vercel.app/signUp",
-    deploy:"https://github.com/andresDiazLugo/gallery",
+    deploy:"https://gallery-phi-five.vercel.app/",
     tecnology:["REACT","TYPESCRIPT", "JAVASCRIPT", "HTML", "CSS","TAILWIND","NODEJS","EXPRESS","PostgreSQL","SEQUELIZE"]
 
 },
-{
-    id:6,
-    img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1661958329/country_rwabcu.png",
-    title:"App country",
-    gitHub:"https://github.com/andresDiazLugo/front-app-country",
-    deploy:"#",
-    tecnology:["REACT", "JAVASCRIPT", "HTML", "CSS", "NODEJS", "EXPRESS","PostgreSQL","SEQUELIZE"]
+// {
+//     id:6,
+//     img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1661958329/country_rwabcu.png",
+//     title:"App country",
+//     gitHub:"https://github.com/andresDiazLugo/front-app-country",
+//     deploy:"#",
+//     tecnology:["REACT", "JAVASCRIPT", "HTML", "CSS", "NODEJS", "EXPRESS","PostgreSQL","SEQUELIZE"]
 
-},
+// },
 {
     id:7,
     img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1672665041/calculadora.png",
@@ -84,5 +84,13 @@ export const project = [
     gitHub:"https://github.com/andresDiazLugo/newPortfolio",
     deploy:"https://new-portfolio-1vknf9yeg-andresdiazlugo.vercel.app/",
     tecnology:["REACT","TYPESCRIPT","JAVASCRIPT", "HTML", "CSS", "SASS"]
+},
+{
+    id:10,
+    img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1679343651/Animation_wtnght.png",
+    title:"Ojos animations",
+    gitHub:"https://github.com/andresDiazLugo/animation",
+    deploy:"https://animation-blue.vercel.app/",
+    tecnology:["REACT", "HTML", "CSS", "SASS"]
 }
 ]
