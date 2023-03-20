@@ -11,8 +11,8 @@ export const project = [
     id:1,
     img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1667931315/mercado_libre_wwjhhe.png",
     title:"Clon Mercado Libre",
-    gitHub:"https://github.com/andresDiazLugo/mercado-libre---clon",
-    deploy:"https://hilarious-dieffenbachia-075f4e.netlify.app/",
+    gitHub:"https://github.com/andresDiazLugo/clon-MERCADO-LIBRE",
+    deploy:"https://clon-mercado-libre-chi.vercel.app/",
     tecnology:["REACT", "JAVASCRIPT", "HTML", "CSS"]
 },
 {
