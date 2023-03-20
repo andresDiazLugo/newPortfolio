@@ -49,7 +49,6 @@ export const project = [
     gitHub:"https://gallery-phi-five.vercel.app/signUp",
     deploy:"https://gallery-phi-five.vercel.app/",
     tecnology:["REACT","TYPESCRIPT", "JAVASCRIPT", "HTML", "CSS","TAILWIND","NODEJS","EXPRESS","PostgreSQL","SEQUELIZE"]
-
 },
 // {
 //     id:6,

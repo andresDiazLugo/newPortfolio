@@ -8,7 +8,7 @@ export default function Nav() {
             <div>
             <Link to="/about"><p>About</p></Link> 
              <a href='https://github.com/andresDiazLugo' target="_blank">GitHub</a>
-             <a href='https://www.linkedin.com/in/alberto-diaz-lugo-91b0a0239/https://www.linkedin.com/in/alberto-diaz-lugo-91b0a0239/' target="_blank">Linkedin</a>
+             <a href='https://www.linkedin.com/in/alberto-diaz-lugo-91b0a0239' target="_blank">Linkedin</a>
             </div>
         </nav>
     </header>
