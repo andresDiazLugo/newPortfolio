@@ -18,7 +18,7 @@ export default function Gallery() {
                 },1500)
                 if(positionIMg === elementsImg.length-1){
                     conditionalBoolean = false
-                    positionIMg = 8
+                    positionIMg = elementsImg.length - 1
                     
                 }                
             }else if(!conditionalBoolean){
@@ -51,7 +51,7 @@ export default function Gallery() {
             <img className="change1" src="https://i.ytimg.com/vi/qsDvJrGMSUY/maxresdefault.jpg" alt="sequelize"/>
             <img className="change1" src="https://www.arsys.es/blog/file/uploads/2018/06/postgresql.jpg" alt="postgreSQL"/>
             <img className="change1" src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/01/typescript-logo.png?fit=1200%2C600&ssl=1" alt="typescript"/>
-<!--             <img className="change1" src="https://res.cloudinary.com/doeqsvbxc/image/upload/v1679449427/figma_d6p1er.webp" alt="figma"/> -->
+            <img className="change1" src="https://res.cloudinary.com/doeqsvbxc/image/upload/v1679449427/figma_d6p1er.webp" alt="figma"/>
               
         </section>
     </main>
