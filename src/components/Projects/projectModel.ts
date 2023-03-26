@@ -116,5 +116,13 @@ export const project = [
     deploy:"https://salon-nu.vercel.app/",
     tecnology:["HTML", "CSS"]
 },
+ {
+    id:14,
+    img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1679794137/Manga_yxsplg.png",
+    title:"Probando Nextjs",
+    gitHub:"https://github.com/andresDiazLugo/Probando-nextjs",
+    deploy:"https://manga-bksd22y52-andresdiazlugo.vercel.app/",
+    tecnology:["HTML", "CSS","TAILWIND","javascript","React","Nextjs","Typescript"]
+}
     
 ]
