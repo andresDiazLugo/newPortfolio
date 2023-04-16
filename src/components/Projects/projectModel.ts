@@ -123,6 +123,14 @@ export const project = [
     gitHub:"https://github.com/andresDiazLugo/Probando-nextjs",
     deploy:"https://manga-bksd22y52-andresdiazlugo.vercel.app/",
     tecnology:["HTML", "CSS","TAILWIND","javascript","React","Nextjs","Typescript"]
+},
+  {
+    id:15,
+    img:"https://res.cloudinary.com/doeqsvbxc/image/upload/v1681680290/ecomerce_wifppr.png",
+    title:"mini-ecommerce-Nextjs",
+    gitHub:"https://github.com/andresDiazLugo/ecommerce-nextjs",
+    deploy:"https://ecommerce-nextjs-8h5rvdl2g-andresdiazlugo.vercel.app/store",
+    tecnology:["HTML", "CSS","javascript","React","Nextjs"]
 }
     
 ]
