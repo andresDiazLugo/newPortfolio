@@ -131,6 +131,14 @@ export const project = [
     gitHub:"https://github.com/andresDiazLugo/ecommerce-nextjs",
     deploy:"https://ecommerce-nextjs-8h5rvdl2g-andresdiazlugo.vercel.app/store",
     tecnology:["HTML", "CSS","javascript","React","Nextjs"]
+},
+{
+    id:16,
+    img:"https://res.cloudinary.com/da76mkk4h/image/upload/v1696528390/goSocialPNG_smhwzx.png",
+    title:"GoSocial",
+    gitHub:"https://github.com/FrM-bot/gosocial-dashboard",
+    deploy:"https://gosocial-client.vercel.app/",
+    tecnology:["HTML", "CSS","javascript","React","Nextjs",Tailwind,nodejs, express,prisma, mongoDB]
 }
     
 ]
