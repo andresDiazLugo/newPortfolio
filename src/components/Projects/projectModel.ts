@@ -138,7 +138,7 @@ export const project = [
     title:"GoSocial",
     gitHub:"https://github.com/FrM-bot/gosocial-dashboard",
     deploy:"https://gosocial-client.vercel.app/",
-    tecnology:["HTML", "CSS","javascript","React","Nextjs",Tailwind,nodejs, express,prisma, mongoDB]
+    tecnology:["HTML", "CSS","javascript","React","Nextjs","Tailwind","nodejs","express","prisma", "mongoDB"]
 }
     
 ]
